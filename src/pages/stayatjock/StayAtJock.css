@@ -1,0 +1,36 @@
+.stayatjock .stayatjock_img{
+    display: none;
+}
+.stayatswiper{}
+.stayatswiper-reversce{}
+
+.stayatswiper .swiper-button-next, .stayatswiper .swiper-button-prev, .stayatswiper-reversce .swiper-button-next, .stayatswiper-reversce .swiper-button-prev{
+    position: absolute;
+    bottom: 41px;
+    top: auto;
+    width: 28px;
+    height: 28px;
+}
+
+.stayatswiper .swiper-button-next{
+    right: 98.53px;
+    background-image: url('../../../public/img/Imgpotraitnavigation-left.svg');
+}
+.stayatswiper .swiper-button-prev{
+    right: 41px;
+    background-image: url('../../../public/img/Imgpotraitnavigation-right.svg');
+    transform: rotate(0deg);
+}
+
+.stayatswiper-reversce .swiper-button-next{
+    left: 36px;
+    background-image: url('../../../public/img/Imgpotraitnavigation-left.svg');
+}
+.stayatswiper-reversce .swiper-button-prev{
+    left: 98.23px;
+    background-image: url('../../../public/img/Imgpotraitnavigation-right.svg');
+    transform: rotate(0deg);
+}
+.mb-250{
+    margin-bottom: 250px;
+}

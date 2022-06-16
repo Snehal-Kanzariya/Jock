@@ -1,0 +1,77 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.hero-container{
+    height: 904px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+.hero-container img{
+    object-fit: cover;
+}
+.hero-container > div{
+    position: absolute;
+    bottom: 0;
+}
+.hero-container > div h1 {
+    color: #FFFEFE;
+    font-size: 65px;
+    line-height: 74px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Minion Pro';
+    margin-top: 13%;
+    text-align: center;
+}
+.btn:focus,.btn-primary:focus{
+    box-shadow: none;
+}
+.btn-primary:focus{
+    border: 0;
+}
+.btn-primary:active:focus{
+    box-shadow: none;
+}
+.modal-body{
+    padding: 0;
+    overflow: hidden;
+}
+.model-popup::before{
+    content: '';
+    background-image: url('../../../public/img/search.svg');
+}
+.fs-19{
+    font-size: 19px;
+}
+.w-948{
+    max-width: 948px;
+}
+.w-671{
+    max-width: 671px;
+}
+.list-p{
+    padding: .5rem;
+}
+.list-icon{
+    list-style: url("../../../public/img/diamond-list.svg")
+}
+.fs-13{
+    font-size: 13px;
+}
+.bt-0{
+    position: absolute;
+    bottom: -282px !important;
+    margin-bottom: 56px;
+}
+.w-139{
+    width: 139%;
+}

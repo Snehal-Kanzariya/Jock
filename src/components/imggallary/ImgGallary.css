@@ -1,0 +1,41 @@
+.mt-321{
+    margin-top: 321px;
+}
+.mb-245{
+    margin-bottom: 245px;
+}
+.mw-704{
+    min-width: 704px;
+}
+.content-btn{
+    text-align: center;
+    width: max-content;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+}
+.mt-44{
+    margin-top: 44px;
+}
+.imgsize{
+    max-width: 412px;
+}
+.ps-43{
+    padding-left: 43%;
+}
+.ps-70{
+    padding-left: 70px;
+}
+.pe-110{
+    padding-right: 110px;
+}
+.mt-195{
+    margin-top: 195px !important;
+    margin-bottom: 194px !important;
+}
+.mw-10{
+    max-width: 393px;
+}
+.mw-658{
+    width: 658px;
+}

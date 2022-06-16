@@ -1,0 +1,55 @@
+
+.col-md-6 p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #494948;
+}
+@media (min-width:768px) {
+    .md\:px-142{
+        padding-left: 142px;
+        padding-right: 142px;
+    }
+    .md\:pe-20{
+        padding-right: 20px;
+    }
+    .md\:ps-20{
+        padding-left: 20px;
+    }
+    .md\:pt-370{
+        padding-top: 81px;
+    }
+    .md\:pt-71{
+        padding-top: 71px;
+    }
+}
+@media (max-width:767.99px) {
+    .sm\:px-5{
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+    }
+    .sm\:mt-3{
+        margin-top: 1rem;
+    }
+}
+
+.md\:px-67{
+    padding-left: 67px;
+    padding-right: 67px;
+}
+/* title font size */
+.tfs{
+    font-size: 36px;
+}
+.mw-484{
+    max-width: 484px;
+}
+.py-128{
+    padding-top: 100px;
+    /* padding-top: 249px; */
+    padding-bottom: 100px;
+}
+.md\:py-5{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}

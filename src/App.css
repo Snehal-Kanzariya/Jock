@@ -1,0 +1,66 @@
+@import url('http://fonts.cdnfonts.com/css/minion-pro');
+@import url('http://fonts.cdnfonts.com/css/gotham');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+.title {
+  font-family: 'Minion Pro';
+}
+.ffG{
+  font-family: 'Gotham Light';
+}
+.bgcolor{
+  background-color: #787F3D;
+}
+.fscolor{
+  color: #787F3D !important;
+}
+.titlefs{
+  font-size: 45px;
+}
+/* title color */
+.tcolor{
+  color: #494948;
+}
+.bg-gray{
+  background: #494948;
+}
+.gray{
+  background: #F5F5F5;
+}
+.l-gray{
+  background-color: #EBECE2;
+}
+.light-white{
+  color: #FFFEFE;
+}
+.light-gray{
+  background-color: #F5F5F1;
+}
+ul{
+  list-style: none;
+}
+/* btn hover */
+.cool-link {
+  display: inline-block;
+  color: #787F3D;
+}
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: 10px;
+  background: #787F3D;
+  opacity: 0.4;
+  transition: width .3s;
+}
+.cool-link:hover::after {
+  width: 100%;
+}
+.fs-14{
+  font-size: 14px;
+}

@@ -1,0 +1,28 @@
+.discoverbg{
+    background-image: url('../../../public/img/mapbg.jpg');
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-size: cover;
+}
+.pt-270{
+    padding-top: 270.15px;
+}
+.pe-76{
+    padding-right: 76.11px;
+}
+.pb-83{
+    padding-bottom: 83.44px;
+}
+.pt-290{
+    padding-top: 290px;
+}
+.mx-438{
+    max-width: 438px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.ps-78{
+    padding-left: 78px;
+}

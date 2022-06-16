@@ -1,0 +1,13 @@
+.fs-45{
+    font-size: 45px;
+    line-height: 60px;
+}
+.pt-133{
+    padding-top: 133px;
+}
+@media (min-width:576px) {
+    .sm\:mx-150{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}

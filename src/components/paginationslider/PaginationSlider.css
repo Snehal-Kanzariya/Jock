@@ -1,0 +1,57 @@
+@import url('http://fonts.cdnfonts.com/css/minion-pro');
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+.swiper-pagination-fraction{
+    bottom: -6px;
+    background: #F5F5F5;
+    padding-right: 51px;
+}
+.mt-46{
+    margin-top: 46px;
+}
+
+.pl-114{
+    padding-left: 114px;
+}
+
+.swiper-pagination{
+    position: absolute;
+    padding-top: 0;
+    width: auto;
+    color: #787F3D;
+    font-family: 'Minion Pro';
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+    content: '';
+}
+
+.swiper-button-prev{
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    right: 186px;
+    left: auto;
+    background-image: url('../../../public/img/swiper-next.svg');
+    transform: rotate(180deg);
+    width: 19px;
+    height: 19px;
+}
+
+.swiper-button-next{
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    right: 121px;
+    background-image: url('../../../public/img/swiper-next.svg');
+    width: 19px;
+    height: 19px;
+}
+
+.slidervideo{
+    position: absolute;
+    top: 284px;
+    right: 36.98vw;
+}
